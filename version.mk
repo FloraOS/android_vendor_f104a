@@ -1,0 +1,7 @@
+# FloraOS version information
+FLORAOS_CODENAME   := mentha
+FLORAOS_VERSION    := 1.0
+FLORAOS_REVISION   := alpha1
+
+# Aggregate base verison
+FLORAOS_DISPLAY_VERSION := FloraOS-$(FLORAOS_VERSION)-$(FLORAOS_CODENAME)-$(FLORAOS_REVISION)
