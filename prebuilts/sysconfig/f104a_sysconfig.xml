@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <allow-in-power-save package="com.machiav3lli.fdroid" />
+
+    <allow-unthrottled-location package="org.microg.nlp.backend.nominatim" />
+    <allow-unthrottled-location package="org.microg.nlp.backend.ichnaea" />
+    <allow-unthrottled-location package="org.microg.nlp" />
+      
+    <system-user-whitelisted-app package="com.machiav3lli.fdroid" />
+</config>
