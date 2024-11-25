@@ -1,7 +1,7 @@
 # FloraOS version information
 FLORAOS_CODENAME   := mentha
 FLORAOS_VERSION    := 1.0
-FLORAOS_REVISION   := beta2
+FLORAOS_REVISION   := beta3
 
 # Build number from file
 BUILD_DATE := $(shell date -u +%Y%m%d.%H%M%S)
