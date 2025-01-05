@@ -7,8 +7,7 @@ PRODUCT_PACKAGES += \
 	Nextcloud \
 	BreezyWeather \
 	UnifiedNlp \
-	MozillaNlpBackend
-
+	MozillaNlpBackend 
 # Add sysconfig
 PRODUCT_PACKAGES += f104a_sysconfig.xml
 
