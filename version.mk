@@ -1,7 +1,7 @@
 # FloraOS version information
 FLORAOS_CODENAME   := zingiber
 FLORAOS_VERSION    := 1.1
-FLORAOS_REVISION   := alpha1
+FLORAOS_REVISION   := alpha2
 
 # Build number from file
 BUILD_DATE := $(shell date -u +%Y%m%d.%H%M%S)
