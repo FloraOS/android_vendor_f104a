@@ -5,7 +5,13 @@ PRODUCT_SUPPORTS_GMSCOMPAT := false
 endif
 ifeq ($(PRODUCT_SUPPORTS_GMSCOMPAT), true)
 $(warning GmsCompat support is enabled)
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+	ro.system.gmscompat=true
 endif
+
+# Disable runtime recovery updates
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+   persist.vendor.recovery_update=false
 
 # Include all configuration files
 include vendor/f104a/config/packages.mk
