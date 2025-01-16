@@ -6,7 +6,8 @@ endif
 ifeq ($(PRODUCT_SUPPORTS_GMSCOMPAT), true)
 $(warning GmsCompat support is enabled)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-	ro.system.gmscompat=true
+	ro.system.gmscompat=true \
+	ro.system.gmscompat.trusted_apps=com.google.android.gsf,com.google.android.gms,com.android.vending,com.google.android.googlequicksearchbox,com.google.android.GoogleCamera,com.google.android.apps.camera.services,com.google.android.projection.gearhead,com.google.android.tts
 endif
 
 # Disable runtime recovery updates
