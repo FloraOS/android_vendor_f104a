@@ -9,6 +9,10 @@ PRODUCT_PACKAGES += \
 	UnifiedNlp \
 	MozillaNlpBackend
 
+# Add RROs
+PRODUCT_PACKAGES += \
+	FloraQSGradient
+
 # Add sysconfig
 PRODUCT_PACKAGES += f104a_sysconfig.xml
 
