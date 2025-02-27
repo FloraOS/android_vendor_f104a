@@ -8,7 +8,7 @@
         android:versionCode="1"
         android:versionName="1.0">
 <overlay android:targetPackage="com.android.systemui"
-	android:category="android.theme.customization.qs_panel"
+	android:category="android.theme.customization.qs_panel_gradient"
         android:priority="1"/>
     <application
         android:hasCode="false"/>
